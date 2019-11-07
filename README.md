@@ -19,7 +19,7 @@ Feel free to modify the path as you like!
 Build docker
 
 ```
-cd $ROS_RRBOT_SIM && docker build -t ros_melodic_desktop_full .
+cd $ROS_RRBOT_SIM && docker build -t ros-melodic-desktop-full .
 ```
 
 ## Launch laser simulation
