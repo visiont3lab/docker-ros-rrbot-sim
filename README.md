@@ -1,38 +1,26 @@
 
-## Docker ROS rrbot Laser Scan Simulation
+# Docker ROS rrbot Laser Scan Simulation
+
+## Introduction
+
 Rrbot simulation laser scan point cloud generation using docker in combination with gazebo and rviz. 
 
-TEST
-
 ## Requirements
-Install docker
 
-## Setup 
+* [Install docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
+* [Install nvidia-docker2](https://github.com/NVIDIA/nvidia-docker)
 
-Setup environment variable
+## Setup
 
 ```
 cd $HOME
-git clone https://github.com/visiont3lab/docker-ros.git
+sudo apt install xfce4-terminal
+git clone https://github.com/visiont3lab/docker-ros-rrbot-sim.git
 echo "export ROS_RRBOT_SIM=$HOME/docker-ros-rrbot-sim" >> $HOME/.bashrc && source $HOME/.bashrc
 ```
 Feel free to modify the path as you like!
 
-Build docker
-
-```
-cd $ROS_RRBOT_SIM && docker build -t ros-melodic-desktop-full .
-```
-
-## Launch laser simulation
-
-We need xfce4-terminal
-
-```
-sudo apt install xfce4-terminal
-```
-
-Launch simulation
+## Run
 
 ```
 cd $ROS_RRBOT_SIM/scripts && ./launch_rrbot_sim.sh
@@ -50,6 +38,14 @@ docker stop ros_melodic_desktop_rrbot_sim
 [Tf transform](https://gist.github.com/martimorta/64bc08ba9934b1ad7a02)
 [Amazing Article](https://community.arm.com/developer/research/b/articles/posts/do-you-want-to-build-a-robot)
 [Laser assembler](https://www.youtube.com/watch?v=MyA0as18Wkk&feature=youtu.be)
+
+
+## Extra: Build docker image
+
+```
+cd $ROS_RRBOT_SIM && docker build -t ros-melodic-desktop-full .
+```
+
 
 ## Extra (Useful Commands)
 

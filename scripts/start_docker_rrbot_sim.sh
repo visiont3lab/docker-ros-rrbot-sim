@@ -14,5 +14,5 @@
         --group-add $(getent group audio | cut -d: -f3) \
         -v $ROS_RRBOT_SIM/scripts/config.yaml:/root/.ignition/fuel/config.yaml  \
         -v $ROS_RRBOT_SIM/src:/root/catkin_ws/src/ \
-        ros-melodic-desktop-full \
+        visiont3lab/ros-melodic-desktop-full:x86 \
         bash 
