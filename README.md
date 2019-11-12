@@ -2,6 +2,8 @@
 ## Docker ROS rrbot Laser Scan Simulation
 Rrbot simulation laser scan point cloud generation using docker in combination with gazebo and rviz. 
 
+TEST
+
 ## Requirements
 Install docker
 
