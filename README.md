@@ -34,9 +34,9 @@ docker stop ros_melodic_desktop_rrbot_sim
 
 ## References
 
-[Main Reference](http://ros-developer.com/2017/08/03/assembling-laser-scans-into-pcl-point-cloud-using-gazebo-and-ros/)
-[Tf transform](https://gist.github.com/martimorta/64bc08ba9934b1ad7a02)
-[Amazing Article](https://community.arm.com/developer/research/b/articles/posts/do-you-want-to-build-a-robot)
+[Main Reference](http://ros-developer.com/2017/08/03/assembling-laser-scans-into-pcl-point-cloud-using-gazebo-and-ros/) <br>
+[Tf transform](https://gist.github.com/martimorta/64bc08ba9934b1ad7a02) <br>
+[Amazing Article](https://community.arm.com/developer/research/b/articles/posts/do-you-want-to-build-a-robot) <br>
 [Laser assembler](https://www.youtube.com/watch?v=MyA0as18Wkk&feature=youtu.be)
 
 
